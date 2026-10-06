@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<body>
+    <h2>Shopping list </h2><p></p>
+    <button onclick="myFunction()">Compile List</button>
+    <h4 class='hdr'>Kitchen</h4>
+        <li class='item'> <input type='checkbox'> Ribs <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Rotisserie Chicken <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Chicken Cutlets <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Chicken Milanese <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Georgian chicken  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Grilled beef liver <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Grilled vegetables <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Stuffed cabbage<input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Mashed Potato <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Fruits</h4>
+        <li class='item'> <input type='checkbox'> Apples Honey Crisp <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Bananas  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Blueberries <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Cherries <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Grapes seedless green <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Mandarins Halo or Cuties 3 lb bag <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Peaches White or Yellow <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Pears Bosc <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Raspberries <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Strawberries <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Lemon <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Vegetables</h4>
+        <li class='item'> <input type='checkbox'> Avocado <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Baby carrots <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Baby carrots Organic <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Carrots <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Carrots Organic  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Celery <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Celery Organic <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Cilantro <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Cucumbers <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Cucumbers Mini <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Garlic <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Lettuce Iceberg <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Lettuce Red Leaf <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Onions  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Parsley <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Tomatoes  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Tomatoes (cherry on the vine) <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Deli</h4>
+        <li class='item'> <input type='checkbox'> Bologna Veal Alef <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Chicken Breast Roasted GreenRidge<input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Turkey Breast Roasted GreenRidge<input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Turkey Breast Honey Glazed GreenRidge<input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Cabbage Pickled <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Eggplant spread Zergut <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Hummus Plain Sabra (small) <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Patte Liver <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Pickles Half Salty <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Ratatouille  Zergut <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Salad Moldovan <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Salami Evreyskaya Alef <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Salami Hungarian Pick <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Grains</h4>
+        <li class='item'> <input type='checkbox'> Buckwheat  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Sunflower seeds  <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Canned/Bottled Food</h4>
+        <li class='item'> <input type='checkbox'> Jam Black current jam (light) <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Pickles Israeli <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Taramasalata <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Oil Canola Pam original cooking spray <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Oil Sunflower unrefined  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Tea Black Czar Nicolas II  <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Water Mineral Essentuki-4 <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Cereals </h4>
+        <li class='item'> <input type='checkbox'> Pirate Booty( multipack) <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Rice crispies <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Meats</h4>
+        <li class='item'> <input type='checkbox'> Chicken thighs skinless boneless Amish <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Dairy</h4>
+        <li class='item'> <input type='checkbox'> Cream Cheese Whipped <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Creamer French vanilla Coffee Mate <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Eggs (brown cage free) <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Half & Half <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Milk organic 2 % 1/2 gal   <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Breads</h4>
+        <li class='item'> <input type='checkbox'> Bagels Blueberry Thomas <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Bagels Everything Thomas <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Bagels Plain Mini Thomas <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Bagels Plain Thomas <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Bread black with sunflower seeds <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Bread Brioche sliced refrigerated <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Raisin bread Udi's frozen <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Mini frozen pancakes <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Pancakes mini Frozen <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Raisin Bread Udi’s gluten free <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Sushki <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Crispy Tea Rusk <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Waffles blueberry Kellogg's <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Waffles Egg blueberry  <input type='text' oninput="handleInput(this)"></li>
+    <h4 class='hdr'>Desert</h4>
+        <li class='item'> <input type='checkbox'> Ice cream chocolate in cones Dadu <input type='text' oninput="handleInput(this)"></li>
+        <li class='item'> <input type='checkbox'> Wafers Chocolate <input type='text' oninput="handleInput(this)"></li>
+    <script>
+        function myFunction() {
+            const d = "Copied to clipboard " + String(new Date).substring(4,21)
+            document.querySelector('p').innerText += d
+            for (let x of document.querySelectorAll('.hdr')) {
+                x.remove()
+            }
+            for (let x of document.querySelectorAll('.item')) {
+                chk = x.querySelectorAll('input')
+                if (! chk[0].checked) x.remove()
+                else {chk[0].checked = false
+                  chk[1].type = "hidden"
+                  if (chk[1].value != "") x.innerHTML +=  " | "
+                  x.innerHTML +=  chk[1].value
+                }
+            }
+            x = document.querySelector('button')
+            x.remove()
+            const richTextDiv = document.body;
+            const clipboardItem = new ClipboardItem({
+            	"text/plain": new Blob(
+            		[richTextDiv.innerText],
+            		{ type: "text/plain" }
+            	),
+            	"text/html": new Blob(
+            		[richTextDiv.outerHTML],
+            		{ type: "text/html" }
+            	),
+            });
+            navigator.clipboard.write([clipboardItem]);
+        }
+        function handleInput(textField) {
+            // 1. Find the parent <li> containing this specific input
+            const parent = textField.closest('.item');
+            
+            // 2. Find the checkbox within that specific parent
+            const checkbox = parent.querySelector('input[type="checkbox"]');
+            
+            // 3. Set checked status based on whether text exists
+            checkbox.checked = textField.value.trim().length > 0;
+        }
+    </script>
+
+</body>
+</html>
